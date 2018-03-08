@@ -1,519 +1,162 @@
 <!DOCTYPE HTML>
+<!--
+BY EIRE_Dev | Website:https://minecog.com | Discord:https://discordapp.com/invite/tdVBxzq
+-->
 <html>
 <head>
+	<!--
+	Replace Fresh With your server name
+	-->
+		<title>Fresh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="landing">
 
-  <!-- Olympia 2.0, created with love by Sid Engel. -->
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-  <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Fresh</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<!-- Links | link 2, 4 and link 8 will open in a new tab change this by adding or removing the: target="_blank" -->
+											<li><a href="index.html">Home</a></li>
+											<li><a href="#" target="_blank">Forums</a></li>
+											<li><a href="vote.html">Vote</a></li>
+											<li><a href="https://discordapp.com/invite/tdVBxzq" target="_blank">Discord</a></li>
+											<li><a href="#">Bans</a></li>
+											<li><a href="#">link 5</a></li>
+											<li><a href="#">Link 6</a></li>
+											<li><a href="" target="_blank">Link 8</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-  <!-- Materialize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Fresh</h2>
+							<p>The Ultimate Minecraft Factions Server<br /></p>
+							<ul class="actions">
+											<!-- Replace play.minecog.com with your own server ip -->
+                			<li><a href="#" onclick="window.prompt('Server IP:', text);" class="button special big">play.minecog.com</a></li>
+                  </ul>
+				            <ul class="actions">
+				                <li><a href="#" class="button">Store</a></li>
+				                <li><a href="#" class="button">Forums</a></li>
+				                <li><a href="vote.html" class="button">Vote</a></li>
+				            </ul>
+						</div>
+						<a href="#one" class="more scrolly">Check it out!</a>
+					</section>
 
-  <!-- Roboto Font + Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>A Fresh Experiene</h2>
+								<p>Venture across our vast custom world and slay hordes of evil monsters and players.<br />
+                Build a faction Destroy and loot enemy bases<br />
+                Conquer the map!</p>
+							</header>
+							<ul class="icons major">
+                <li><span class="icon fas fa-gamepad major style1"><span class="label">Trophy</span></span></li>
+                <li><span class="icon fas fa-gamepad major style2"><span class="label">Trophy</span></span></li>
+                <li><span class="icon fas fa-gamepad major style3"><span class="label">Trophy</span></span></li>
+							</ul>
+						</div>
+					</section>
 
-  <!-- Font Awesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/1.jpg" alt="" /></div><div class="content">
+								<h2>Incredible Items</h2>
+								<p>Defeat monsters to loot their randomly generated items, buy scrolls and potions from shops, and collect the equipment of legends from dungeons and bosses as you delve into Fresh's extensive custom lore.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/2.png" alt="" /></div><div class="content">
+									<h3>Custom Terrain</h3>
+									<p>Fresh's world was designed from scratch for the server. Explore new custom biomes but be advised malicious creatures may be lurking.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/3.jpg" alt="" /></div><div class="content">
+								<h2>Description 3</h2>
+								<p>Description 2 Example Text Paragraph 1 With <strong>Bold Text</strong></p>
+								<p>Description 2 Example Text Paragraph 2</p>
+								<p>Description 2 Example Text Paragraph 3</p>
+							</div>
+						</section>
+					</section>
 
-  <!-- AOS -->
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>More of Fresh's Awesomeness</h2>
+								<p>A small taste of the fun that awaits.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-bolt">
+									<h3>Arm UP</h3>
+									<p>Slay your enemies with our Custom Spells and Wepons</p>
+								</li>
+								<li class="icon fa-tree">
+									<h3>Custom Terrain</h3>
+									<p>Fresh's world was designed from scratch for the server. Explore new custom biomes but be advised malicious creatures may be lurking.</p>
+								</li>
+								<li class="icon fa-users">
+									<h3>Cool Community</h3>
+									<p>Make new friends as you join factions and team up with truces and allies, Join our <a href="https://discordapp.com/invite/tdVBxzq">Discord</a> and talk with the comunity and staff.</p>
+								</li>
+								<li class="icon fa-bomb">
+									<h3>Raid</h3>
+									<p><strong>Split</strong>Your enemies bases with our custom tnt and Creepers</p>
+								</li>
+							</ul>
+						</div>
+					</section>
 
-  <!-- MC Player Counter -->
-  <script src="https://cdn.rawgit.com/leonardosnt/mc-player-counter/1.1.0/dist/mc-player-counter.min.js"></script>
-
-  <!-- Theme's Stylesheet -->
-  <link rel="stylesheet" href="./src/css/theme.css" />
-
-  <!-- Theme JS -->
-  <script src="./src/js/smoothscroll.js"></script>
-  <script src="./src/js/nav.js"></script>
-
-  <!-- Site Title -->
-  <title>Olympia 2.0 - Your Server</title>
-
-  <!-- Meta Info -->
-  <meta charset="UTF-8">
-  <meta name="author" content="Sid Engel">
-  <meta name="description" content="A friendly Minecraft server, with a relaxed vibe.">
-  <meta name="keywords" content="Minecraft, Server, Your ServerName, Multiplayer">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-
-  <!-- Nav -->
-  <div class="header" style="background: url('./src/img/cityscape.jpg'); background-position: 50% 10%; background-attachment: fixed;">
-    <div class="navbar-fixed">
-      <nav class="z-depth-0">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#about">About</a></li>
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#vip">Vip</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="#about">About</a></li>
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#vip">Vip</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- / Nav -->
-
-    </div>
-    <div class="header-content center-align" data-aos="fade">
-      <h1 style="padding-top: 6%;">Welcome to CineX</h1>
-      <h5 style="">An easy to modify one page template, for server owners.</h5>
-      <a class="waves-effect waves-light btn-large grey darken-4" style="margin-bottom: 10%; margin-top: 2%;" href="#">GitHub</a>
-    </div>
-  </div>
-
-  <!-- Info -->
-
-  <div class="info center-align" data-aos="fade">
-    <div class="main">
-      <div class="row">
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/dirt-icon.png">
-          <h4>Survival</h4>
-          <i class="chip">
-          <span data-playercounter-ip="mc-central.net"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/stone-icon.png">
-          <h4>Creative</h4>
-          <i class="chip">
-          <span data-playercounter-ip="play.guildcraft.org"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/ender-icon.png">
-          <h4>SkyBlock</h4>
-          <i class="chip">
-          <span data-playercounter-ip="play.hypixel.net"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- / Info -->
-
-  <!-- About -->
-
-  <div class="about" id="about">
-    <div class="main">
-      <div class="row">
-        <div class="col s12 l5 align-center">
-          <img class="responsive-img" src="./src/img/loop.gif" data-aos="fade-right">
-        </div>
-        <div class="col s12 l7" data-aos="fade-left">
-          <h4>What is Olympia?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie mollis molestie. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed
-            ornare ornare. Suspendisse finibus non sem vitae viverra.Morbi molestie mollis molestie. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien
-            sed ornare ornare. Suspendisse finibus non sem vitae viverra. Morbi molestie mollis molestie.</p>
-          <p>Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit.</p>
-          <a class="waves-effect waves-light btn-large grey darken-4" style="margin-top: 2%;" href="#">Discord</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- / About -->
-
-  <!-- Staff -->
-
-  <div class="staff" id="staff">
-    <div class="main">
-      <div class="row">
-        <div class="col s12">
-          <h4 class="center-align" style="padding-bottom: 1
-        %;">Our Staff Team</h5>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
+				<!-- Replace play.minecog.com with your own server ip -->
+          <section id="one" class="wrapper style6 special">
+            <div class="inner">
+              <header class="major">
+                <h2>What are you waiting for?</h2>
+                <p>Join Our server today!</p>
+                <a href="#" onclick="window.prompt('Server IP:', text);" class="button special big">play.minecog.com</a>
+              </header>
             </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="150">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="300">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="450">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- / Staff -->
+          </section>
 
-  <!-- Vip -->
-  <div class="vip center-align" id="vip">
-    <div class="main">
-      <div class="row" data-aos="fade">
-        <div class="col s12">
-          <h4>Donator Information</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 l4" data-aos="fade-right">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip</h5>
-                <span>$5.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 l4" data-aos="fade">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip</h5>
-                <span>$10.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 l4" data-aos="fade-left">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip++</h5>
-                <span>$15.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /Vip -->
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<a href="https://minecog.com">&copy;EIRE_Dev</a>
+						</ul>
+					</footer>
 
-  <!-- Screenshots -->
-  <div class="screenshots center-align" id="screenshots">
-    <div class="main" data-aos="fade">
-      <div class="row">
-        <div class="col s12">
-          <h4>Server Screenshots</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /Screenshots -->
+			</div>
 
-  <!-- Contact -->
-  <div class="contact" id="contact" style="background: url('./src/img/cityscape.jpg'); background-position: 50% 10%; background-attachment: fixed;">
-    <div class="main">
-      <div class="card-panel" data-aos="fade-up">
-        <h4 class="center-align">Contact Us</h4>
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
-              <label for="name">Name</label>
-            </div>
-            <div class="input-field col s6">
-              <input type="text" class="form-control" id="email" name="email" placeholder="Email" required />
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <form class="col s12">
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="message" class="materialize-textarea"></textarea>
-                  <label for="message">Your Message</label>
-                </div>
-              </div>
-              <div>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect grey darken-4'>Submit</button>
-              </div>
-            </form>
-          </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-        </form>
-      </div>
-    </div>
-  </div>
-  <!-- /Contact -->
-
-
-  <!-- Footer -->
-  <footer class="page-footer grey darken-4 z-depth-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Social Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Official Twitter Feed</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">FaceBook Group</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-4 z-depth-4">
-      <div class="container">
-        <!-- Please give credit, where credit is due. Leave this here... -->
-        Created with care, by Sid Engel.
-        <a class="grey-text text-lighten-4 right" href="#!">©ServerName 2017</a>
-      </div>
-    </div>
-  </footer>
-  <!-- /Footer -->
-
-  <!-- AOS INIT -->
-  <script>
-    AOS.init({
-      duration: 800,
-      easing: 'ease-in-sine',
-      disable: 'mobile',
-    });
-  </script>
-
-  <!-- Mobile Nav INIT -->
-  <script>
-    $(".button-collapse").sideNav();
-  </script>
-</body>
-
+	</body>
 </html>
