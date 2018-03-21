@@ -31,8 +31,8 @@ body {
 	margin-right: 0px;
 }
 .top {
-  /*Background Image*/
-  	background-image: url("../img/background.jpg");
+  /*Background Color*/
+  	background-color: gray;
   	height: 100%;
   	width: auto;
   	text-align: center;
