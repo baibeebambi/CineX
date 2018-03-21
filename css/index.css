@@ -178,9 +178,9 @@ box-shadow: 0 30px 30px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 hr {
- background: #02d849;
+ background: #FF9700;
  border: none;
- color: black;
+ color: gray;
  height: 5px;
  border-radius: 10px;
  margin-top: 0px;
