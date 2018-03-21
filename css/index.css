@@ -32,8 +32,8 @@ body {
 }
 .top {
   /*Background Image*/
-  	background-image: url("../img/background.gif");
-  	height: 103%;
+  	background-image: url("../img/background.jpg");
+  	height: 100%;
   	width: auto;
   	text-align: center;
   	background-attachment: fixed;
